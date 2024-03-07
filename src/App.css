@@ -79,7 +79,31 @@
   top: 0;
   left: 15%;
   height: 80%;
-  z-index: 5; /* Adjust the z-index to ensure the image is on top of the SVG */
+  z-index: 5;
 }
 
+.wavy-line {
+  position: relative;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  height: 390px;
+}
 
+.section-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.pagination-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  transition: left 0.5s ease; 
+}
+
+.pagination-content {
+  display: flex;
+  gap: 18px;
+  transition: left 0.5s ease; 
+}

@@ -87,7 +87,7 @@ export default function Project() {
                     />
                   </div>
                   <div className="bg-white p-4 rounded-b-lg text-left">
-                    <div className="text-gray-600 font-medium text-blue-600 mb-2">{project.category}</div>
+                    <div className="font-medium text-blue-600 mb-2">{project.category}</div>
                     <h2 className="text-lg font-bold mb-1">{project.title}</h2>
                     <p className="text-gray-600 mb-2">{project.description}</p>
                   </div>

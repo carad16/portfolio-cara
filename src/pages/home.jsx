@@ -1,4 +1,4 @@
-import pic from '/pic1.png'
+import pic from '/src/assets/pic1.png'
 
 function Home() {
 

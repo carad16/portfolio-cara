@@ -3,7 +3,7 @@ function AboutMe() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-blue-50">
       <div className="text-center flex mt-6 mb-6">
         <img
-          src="./2x2 Corporate.jpg"
+          src="src/assets/2x2 Corporate.jpg"
           alt="Profile"
           className="rounded-full h-24 w-24 mx-auto mb-2"
         />
@@ -15,7 +15,7 @@ function AboutMe() {
       <div className="bg-white p-8 rounded-lg shadow-md max-w-6xl w-full flex mb-6">
         <div className="flex-shrink-0 mr-6">
           <img
-            src="./2x2 Corporate.jpg"
+            src="src/assets/2x2 Corporate.jpg"
             alt="Profile"
             className="rounded-full h-24 w-24"
           />

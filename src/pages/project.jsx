@@ -9,19 +9,31 @@ const projects = [
     title: 'HelpHands: Orphanage Resource Management System',
     description: 'Brief description of Project 1.',
     category: 'Web-Based System',
-    image: '../vite.svg',
+    image: 'src/assets/vite.svg',
   },
   {
     title: 'Barangay Business Information System',
     description: 'Brief description of Project 2.',
     category: 'Web Application',
-    image: './pic1.png',
+    image: 'src/assets/pic1.png',
   },
   {
     title: 'Hospital Inventory Management System',
     description: 'Brief description of Project 3.',
     category: 'Web-Based System',
-    image: './pic1.png',
+    image: 'src/assets/pic1.png',
+  },
+  {
+    title: '(Front-End) LexMeet Business Legal Shield Program - MSME Consult',
+    description: 'Brief description of Project 3.',
+    category: 'Web-Based System',
+    image: 'src/assets/pic1.png',
+  },
+  {
+    title: '(Front-End) LexMeet Landing Page',
+    description: 'Brief description of Project 3.',
+    category: 'Web-Based System',
+    image: 'src/assets/pic1.png',
   },
 ];
 

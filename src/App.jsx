@@ -4,8 +4,8 @@ import './App.css'
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { scroller, animateScroll } from 'react-scroll';
-import Navbar from './assets/components/Navbar.jsx'
-import Pages from './assets/pages/pages.js';
+import Navbar from './components/Navbar.jsx';
+import Pages from './pages/pages.js';
 
 function App() {
   function scrollToSection() {

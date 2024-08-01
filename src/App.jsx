@@ -5,10 +5,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { scroller, animateScroll } from 'react-scroll';
 import Navbar from './assets/components/Navbar.jsx'
-import Home from './assets/pages/Home.jsx'
-import Project from './assets/pages/Project.jsx'
-import Aboutme from './assets/pages/Aboutme.jsx'
-import Contact from './assets/pages/Contact.jsx'
+import Pages from './assets/pages/pages.js';
 
 function App() {
   function scrollToSection() {
@@ -26,10 +23,10 @@ function App() {
           <Navbar />
           <div className="">
             <Routes>
-              <Route exact path='/' element={<Home />} />
-              <Route exact path='/project' element={<Project />} />
-              <Route exact path='/aboutme' element={<Aboutme />} />
-              <Route exact path='/contact' element={<Contact />} />
+              <Route path='/' element={<Pages.Home />} />
+              <Route path='/project' element={<Pages.Project />} />
+              <Route path='/aboutme' element={<Pages.AboutMe />} />
+              <Route path='/contact' element={<Pages.Contact />} />
             </Routes>
           </div>
         </Router>

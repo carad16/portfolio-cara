@@ -1,9 +1,13 @@
-import Home from "src/assets/pages/Home.jsx";
-import AboutMe from "src/assets/pages/Aboutme.jsx";
+import Home from "./home.jsx";
+import AboutMe from "./aboutme.jsx";
+import Contact from "./contact.jsx";
+import Project from "./project.jsx";
 
 export const Pages = {
     Home,
-    AboutMe
+    AboutMe,
+    Contact,
+    Project
 };
 
 export default Pages;

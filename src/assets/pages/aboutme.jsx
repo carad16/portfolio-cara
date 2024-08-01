@@ -1,4 +1,4 @@
-const AboutMe = () => {
+function AboutMe() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-blue-50">
       <div className="text-center flex mt-6 mb-6">
